@@ -1,0 +1,17 @@
+{
+  "model_id": "cand-mwide-adam",
+  "description": "Final Champion Model (M-wide + Adam)",
+  "eval_accuracy": 0.9268435410445514,
+  "eval_macro_f1": 0.8947645199929314,
+  "multi_seed_eval_macro_f1": {
+    "scores": [
+      0.8947645199929314,
+      0.8883421579682572,
+      0.8931167108984189
+    ],
+    "mean": 0.8920744629532025,
+    "std": 0.0033356249906839196
+  },
+  "rubric_target": 0.86,
+  "target_exceeded": true
+}

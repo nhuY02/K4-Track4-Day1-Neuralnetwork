@@ -1,0 +1,193 @@
+{
+  "overall": {
+    "n_eval": 116203,
+    "accuracy": 0.9268435410445514,
+    "macro_f1": 0.8947645199929314,
+    "total_errors": 8501,
+    "error_rate": 0.07315645895544866
+  },
+  "top_misclassifications": [
+    {
+      "true_cls": 0,
+      "pred_cls": 1,
+      "true_name": "Spruce/Fir",
+      "pred_name": "Lodgepole",
+      "count": 3122,
+      "pct_of_true_class": 0.07368768882175226,
+      "pct_of_all_errors": 0.36725091165745205
+    },
+    {
+      "true_cls": 1,
+      "pred_cls": 0,
+      "true_name": "Lodgepole",
+      "pred_name": "Spruce/Fir",
+      "count": 2903,
+      "pct_of_true_class": 0.051234535218227704,
+      "pct_of_all_errors": 0.34148923656040464
+    },
+    {
+      "true_cls": 2,
+      "pred_cls": 5,
+      "true_name": "Ponderosa",
+      "pred_name": "Douglas-fir",
+      "count": 339,
+      "pct_of_true_class": 0.04740595720878199,
+      "pct_of_all_errors": 0.03987766145159393
+    },
+    {
+      "true_cls": 4,
+      "pred_cls": 1,
+      "true_name": "Aspen",
+      "pred_name": "Lodgepole",
+      "count": 294,
+      "pct_of_true_class": 0.15481832543443919,
+      "pct_of_all_errors": 0.03458416656863898
+    },
+    {
+      "true_cls": 0,
+      "pred_cls": 6,
+      "true_name": "Spruce/Fir",
+      "pred_name": "Krummholz",
+      "count": 250,
+      "pct_of_true_class": 0.005900679758308157,
+      "pct_of_all_errors": 0.029408304905305258
+    },
+    {
+      "true_cls": 6,
+      "pred_cls": 0,
+      "true_name": "Krummholz",
+      "pred_name": "Spruce/Fir",
+      "count": 230,
+      "pct_of_true_class": 0.0560702096538274,
+      "pct_of_all_errors": 0.027055640512880837
+    },
+    {
+      "true_cls": 5,
+      "pred_cls": 2,
+      "true_name": "Douglas-fir",
+      "pred_name": "Ponderosa",
+      "count": 226,
+      "pct_of_true_class": 0.0650734235531241,
+      "pct_of_all_errors": 0.026585107634395953
+    },
+    {
+      "true_cls": 2,
+      "pred_cls": 1,
+      "true_name": "Ponderosa",
+      "pred_name": "Lodgepole",
+      "count": 223,
+      "pct_of_true_class": 0.031184449727310867,
+      "pct_of_all_errors": 0.02623220797553229
+    },
+    {
+      "true_cls": 1,
+      "pred_cls": 4,
+      "true_name": "Lodgepole",
+      "pred_name": "Aspen",
+      "count": 220,
+      "pct_of_true_class": 0.0038827412152980002,
+      "pct_of_all_errors": 0.025879308316668626
+    },
+    {
+      "true_cls": 5,
+      "pred_cls": 1,
+      "true_name": "Douglas-fir",
+      "pred_name": "Lodgepole",
+      "count": 180,
+      "pct_of_true_class": 0.05182839044054132,
+      "pct_of_all_errors": 0.021173979531819785
+    }
+  ],
+  "per_class_comparison": [
+    {
+      "cls": 0,
+      "name": "Spruce/Fir",
+      "support": 42368,
+      "baseline_f1": 0.9012,
+      "final_f1": 0.9221957944312307,
+      "delta_f1": 0.020995794431230674,
+      "recall": 0.9197035498489426,
+      "precision": 0.9247015828567361
+    },
+    {
+      "cls": 1,
+      "name": "Lodgepole Pine",
+      "support": 56661,
+      "baseline_f1": 0.9177,
+      "final_f1": 0.9372348927276081,
+      "delta_f1": 0.01953489272760811,
+      "recall": 0.94175888177053,
+      "precision": 0.9327541602573066
+    },
+    {
+      "cls": 2,
+      "name": "Ponderosa Pine",
+      "support": 7151,
+      "baseline_f1": 0.8901,
+      "final_f1": 0.9266967031395267,
+      "delta_f1": 0.036596703139526676,
+      "recall": 0.906027129072857,
+      "precision": 0.9483313817330211
+    },
+    {
+      "cls": 3,
+      "name": "Cottonwood/Willow",
+      "support": 549,
+      "baseline_f1": 0.7728,
+      "final_f1": 0.8419213973799127,
+      "delta_f1": 0.06912139737991263,
+      "recall": 0.8779599271402551,
+      "precision": 0.8087248322147651
+    },
+    {
+      "cls": 4,
+      "name": "Aspen",
+      "support": 1899,
+      "baseline_f1": 0.765,
+      "final_f1": 0.8310428455941794,
+      "delta_f1": 0.06604284559417939,
+      "recall": 0.8120063191153238,
+      "precision": 0.8509933774834437
+    },
+    {
+      "cls": 5,
+      "name": "Douglas-fir",
+      "support": 3473,
+      "baseline_f1": 0.7703,
+      "final_f1": 0.8711532930687375,
+      "delta_f1": 0.10085329306873747,
+      "recall": 0.8721566369133315,
+      "precision": 0.8701522550991094
+    },
+    {
+      "cls": 6,
+      "name": "Krummholz",
+      "support": 4102,
+      "baseline_f1": 0.9141,
+      "final_f1": 0.9331067136093237,
+      "delta_f1": 0.01900671360932371,
+      "recall": 0.9368600682593856,
+      "precision": 0.9293833131801693
+    }
+  ],
+  "ecological_insights": {
+    "pair_spruce_lodgepole": {
+      "description": "Lớp 0 (Spruce/Fir) nhầm thành Lớp 1 (Lodgepole Pine) (3.122 mẫu) và ngược lại (2.903 mẫu)",
+      "pct_of_total_errors": "70.87%",
+      "ecological_reason": "Cả hai loài đều là cây lá kim sống ở vành đai độ cao lớn (subalpine zone, 2.700m - 3.200m). Chúng thường xuyên mọc xen kẽ trong tự nhiên với các đặc tính thổ nhưỡng, góc nghiêng sườn đồi (slope), hướng đồi (aspect) và khoảng cách nguồn nước gần như tương đồng, tạo ra vùng ranh giới phân bố mờ nhạt trong không gian đặc trưng."
+    },
+    "pair_ponderosa_douglas": {
+      "description": "Lớp 2 (Ponderosa Pine) nhầm thành Lớp 5 (Douglas-fir) (339 mẫu) và Lớp 5 nhầm thành Lớp 2 (226 mẫu)",
+      "ecological_reason": "Hai loài cây lá kim này cùng phân bố ở đai độ cao thấp đến trung bình (montane zone, 1.800m - 2.500m). Ponderosa Pine ưa khô hạn trong khi Douglas-fir ưa ẩm hơn một chút, nhưng các khu vực tiếp giáp tạo ra nhiều điểm dữ liệu có đặc trưng cự ly nguồn nước (hydrology) và chỉ số bóng râm (hillshade) khó phân tách dứt khoát."
+    },
+    "pair_aspen_lodgepole": {
+      "description": "Lớp 4 (Aspen) nhầm thành Lớp 1 (Lodgepole Pine) (294 mẫu, chiếm 15.48% số cây Aspen)",
+      "ecological_reason": "Cây rụng lá Aspen thường là loài cây tiên phong mọc phục hồi sau cháy rừng trong các vạt rừng Lodgepole Pine. Chúng chia sẻ cùng độ cao và loại đất, khiến mô hình chỉ dựa vào đặc trưng địa hình tĩnh khó nắm bắt trọn vẹn sự khác biệt sinh học."
+    },
+    "minority_class_cottonwood": {
+      "description": "Lớp 3 (Cottonwood/Willow - lớp thiểu số nghiêm trọng với chỉ 549 mẫu)",
+      "performance": "Recall = 87.80%, Precision = 80.87%, F1 = 0.8419 (tăng từ 0.7728 ở Baseline)",
+      "ecological_reason": "Loài cây ven suối (riparian) phụ thuộc chặt chẽ vào khoảng cách thẳng đứng và nằm ngang tới nguồn nước. Nhờ dung lượng mô hình M-wide và cơ chế cập nhật Adam, mô hình trích xuất tốt hơn đặc trưng phi tuyến từ các cột cự ly thuỷ văn, giúp Recall đạt tới 87.8%."
+    }
+  }
+}
